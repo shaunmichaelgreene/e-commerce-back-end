@@ -30,8 +30,7 @@ router.get('/:id', async (req, res) => {
     const productData = await Product.findOne({
       where: {
         id: req.params.id},
-
-        // be sure to include its associated Category and Tag data
+        //include its associated Category and Tag data
       include: [
         Category, 
         {
@@ -53,7 +52,7 @@ router.get('/:id', async (req, res) => {
 
 // create new product
 router.post('/', (req, res) => {
-  /* req.body should look like this...
+  /* req.body expects
     {
       product_name: "Basketball",
       price: 200.00,
