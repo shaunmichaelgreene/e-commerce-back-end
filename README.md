@@ -17,9 +17,11 @@
 
   ## Installation
   To install, simply clone the repository and use command prompt "npm install". Express, dotenv, mysql2, and sequelize are required, but are included as dependencies in the package.json file. Example seeds have been provided for reference/testing purposes, use the command "npm run seed" to re-seed the database. Launch the sever with the command "npm start". 
+  Schema Initialization Walkthrough: [Click Here](https://drive.google.com/file/d/1kbQ2Sr-WCsgvIA0NhqJyyIWgP9TDZWWc/view)
 
   ## Usage
   Once the database has been populated and the sever is running, CRUD routes can be utilized with Insomnia.
+  Video Walkthrough: [Click Here](https://drive.google.com/file/d/1OwZu0GmEbUplx0AmDT9F6D4wVvp93igp/view)
 
   ## Contributing
   Anything available for open-source contributions will be listed on the GitHub repository Issues page and marked accordingly.
